@@ -95,7 +95,6 @@ The theme is configured in `src/theme/index.ts` with:
 
 - CSS variables enabled for better SSR and theming
 - Roboto font integration with Next.js font optimization
-- Custom color palette and component overrides
 - Dark mode support ready
 
 ### BetaNXT Integration
@@ -162,16 +161,6 @@ vercel
    npm start
    ```
 
-## 📚 Examples
-
-Visit `/examples` to see Material-UI components in action:
-
-- Buttons and actions
-- Form controls
-- Data display components
-- Navigation elements
-- Feedback components
-
 ## 🔗 Useful Links
 
 - [Next.js Documentation](https://nextjs.org/docs)
@@ -193,7 +182,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🆘 Support
 
-- Check the [Issues](https://github.com/rolemodel/betanxt-protoype-template/issues) for common problems
+- Check the [Issues](https://github.com/Rolemodel/betanxt-protoype-template/issues) for common problems
 - Create a new issue for bugs or feature requests
 - Consult the Material-UI and Next.js documentation for framework-specific questions
 
