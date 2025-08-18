@@ -18,10 +18,16 @@ A modern Next.js boilerplate with Material-UI v7 and BetaNXT design system integ
 
 ```bash
 # Create a new project using this template
-npx create-next-app@latest new-prototype --example https://github.com/RoleModel/betanxt-prototype-template --use-pnpm
+npx create-next-app@latest my-project --example https://github.com/RoleModel/betanxt-prototype-template
 
 # Navigate to project directory
 cd my-project
+
+# Remove the copied git history and initialize fresh git repo
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit"
 
 # Install dependencies
 npm install
