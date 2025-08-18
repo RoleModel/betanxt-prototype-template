@@ -1,0 +1,12 @@
+# Example .npmrc configuration for BetaNXT Design System
+# Copy this to .npmrc and replace YOUR_TOKEN_HERE with your actual GitHub token
+
+# Configure access to @rolemodel scoped packages from GitHub registry
+@rolemodel:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=YOUR_TOKEN_HERE
+
+# Optional: Enable legacy peer deps if needed
+legacy-peer-deps=false
+
+# Optional: Configure other registry settings
+registry=https://registry.npmjs.org/

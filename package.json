@@ -1,0 +1,53 @@
+{
+  "name": "@rolemodel/betanxt-prototype-template",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.1.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "@mui/material": "^7.2.0",
+    "@mui/material-nextjs": "^7.2.0",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@emotion/cache": "^11.13.5",
+    "@mui/icons-material": "^7.2.0",
+    "@fontsource/roboto": "^5.1.0",
+    "@rolemodel/betanxt-design-system": "^0.0.47"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.1.3",
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rolemodel/betanxt-protoype-template.git"
+  },
+  "homepage": "https://github.com/rolemodel/betanxt-protoype-template#readme",
+  "bugs": {
+    "url": "https://github.com/rolemodel/betanxt-protoype-template/issues"
+  },
+  "author": "Rolemodel Software",
+  "keywords": [
+    "nextjs",
+    "react",
+    "material-ui",
+    "mui",
+    "betanxt",
+    "design-system",
+    "typescript",
+    "template",
+    "boilerplate"
+  ]
+}
