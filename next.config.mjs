@@ -8,8 +8,7 @@ const nextConfig = {
   
   // Experimental features
   experimental: {
-    // Enable CSS modules
-    cssModules: true,
+    // Add experimental features here as needed
   },
 
   // Environment variables that should be exposed to the browser
